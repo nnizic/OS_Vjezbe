@@ -38,4 +38,65 @@ total 12
 
 
 
+Zadatak_4: disclaimer: uzeo sam folder sa previše datoteka, nisam sve kopirao tu:
+[giz73:Tests]$ ls Cpp -laS
+total 40
+-rwxr-xr-x  1 giz73 giz73 15960 velj 27 13:39 test
+drwxr-xr-x  5 giz73 giz73  4096 velj 27 13:39 .
+drwxr-xr-x 18 giz73 giz73  4096 ožu  23 13:50 ..
+drwxr-xr-x  3 giz73 giz73  4096 velj 13 21:44 Playground
+drwxr-xr-x 16 giz73 giz73  4096 sij  28  2024 Programiranje
+drwxr-xr-x 10 giz73 giz73  4096 svi  23  2024 Spa
+-rw-r--r--  1 giz73 giz73   125 velj 27 13:39 test.cpp
+[giz73:Tests]$ ls Cpp -lhS
+total 32K
+-rwxr-xr-x  1 giz73 giz73  16K velj 27 13:39 test
+drwxr-xr-x  3 giz73 giz73 4,0K velj 13 21:44 Playground
+drwxr-xr-x 16 giz73 giz73 4,0K sij  28  2024 Programiranje
+drwxr-xr-x 10 giz73 giz73 4,0K svi  23  2024 Spa
+-rw-r--r--  1 giz73 giz73  125 velj 27 13:39 test.cpp
+[giz73:Tests]$ ls Cpp -laRt --color
+Cpp:
+total 40
+drwxr-xr-x 18 giz73 giz73  4096 ožu  23 13:50 ..
+-rwxr-xr-x  1 giz73 giz73 15960 velj 27 13:39 test
+drwxr-xr-x  5 giz73 giz73  4096 velj 27 13:39 .
+-rw-r--r--  1 giz73 giz73   125 velj 27 13:39 test.cpp
+drwxr-xr-x  3 giz73 giz73  4096 velj 13 21:44 Playground
+drwxr-xr-x 10 giz73 giz73  4096 svi  23  2024 Spa
+drwxr-xr-x 16 giz73 giz73  4096 sij  28  2024 Programiranje
+
+Cpp/Playground:
+total 108
+drwxr-xr-x 5 giz73 giz73  4096 velj 27 13:39 ..
+-rwxr-xr-x 1 giz73 giz73 15968 velj 13 21:44 gitlab
+drwxr-xr-x 3 giz73 giz73  4096 velj 13 21:44 .
+-rw-r--r-- 1 giz73 giz73   188 velj 13 21:44 gitlab.cpp
+-rw-r--r-- 1 giz73 giz73   201 sij  12 17:37 gh-token.cpp
+-rwxr-xr-x 1 giz73 giz73 15992 sij  12 17:37 gh-token
+drwxr-xr-x 7 giz73 giz73  4096 srp  30  2024 Vjezbe
+-rwxr-xr-x 1 giz73 giz73 15968 ožu  30  2024 jmbag
+-rw-r--r-- 1 giz73 giz73   181 ožu  30  2024 jmbag.cpp
+-rwxr-xr-x 1 giz73 giz73 31864 lis  24  2023 ocjene
+-rw-r--r-- 1 giz73 giz73   713 lis  24  2023 ocjene.cpp
+
+Cpp/Playground/Vjezbe:
+total 28
+drwxr-xr-x 3 giz73 giz73 4096 velj 13 21:44 ..
+drwxr-xr-x 2 giz73 giz73 4096 srp  30  2024 LinkedList
+drwxr-xr-x 7 giz73 giz73 4096 srp  30  2024 .
+drwxr-xr-x 2 giz73 giz73 4096 srp  30  2024 RandomVjezbe
+drwxr-xr-x 2 giz73 giz73 4096 sij  25  2024 Tekstualno
+drwxr-xr-x 2 giz73 giz73 4096 sij  23  2024 Pokazivaci
+drwxr-xr-x 2 giz73 giz73 4096 pro   1  2023 .vscode
+
+Cpp/Playground/Vjezbe/LinkedList:
+total 28
+-rwxr-xr-x 1 giz73 giz73 16256 srp  30  2024 llist001
+drwxr-xr-x 2 giz73 giz73  4096 srp  30  2024 .
+-rw-r--r-- 1 giz73 giz73   879 srp  30  2024 llist001.cpp
+drwxr-xr-x 7 giz73 giz73  4096 srp  30  2024 ..
+
+Cpp/Playground/Vjezbe/RandomVjezbe:
+total 216
 
