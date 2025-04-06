@@ -1,0 +1,41 @@
+Zadatak 1:
+
+mkdir -p Vjezba_2/data
+mkdir -p Vjezba_2/backup
+
+cd Vjezba_2/data
+
+echo 'console.log("Hello, World!")'>script.js
+echo 'body { background-color: #f0f0f0; }'>style.css
+ echo 'VJEZBE=OS'>.env
+
+
+
+Zadatak 2:
+
+
+cp -r . ../backup/
+ls -laS ../backup/
+
+total 20
+drwxr-xr-x 2 giz73 giz73 4096 tra   5 17:13 .
+drwxr-xr-x 4 giz73 giz73 4096 tra   5 17:20 ..
+-rw-r--r-- 1 giz73 giz73   36 tra   5 17:13 style.css
+-rw-r--r-- 1 giz73 giz73   29 tra   5 17:13 script.js
+-rw-r--r-- 1 giz73 giz73   10 tra   5 17:13 .env
+
+Zadatak 3:
+rm *
+cp -nv ../backup/* .
+'../backup/script.js' -> './script.js'
+
+'../backup/style.css' -> './style.css'
+ls -laA1t
+total 12
+-rw-r--r-- 1 giz73 giz73 36 tra   6 20:39 style.css
+-rw-r--r-- 1 giz73 giz73 29 tra   6 20:39 script.js
+-rw-r--r-- 1 giz73 giz73 10 tra   5 16:52 .env
+
+
+
+
