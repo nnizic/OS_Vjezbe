@@ -1,0 +1,26 @@
+Real time proces:
+PID 23  pokreće ga root
+oznaka RT, NI(ce) JE 0 - ta REAL-TIME procese NI se ne koristi
+VIRT - virutalna memorija (ukupna mameorija) 0
+RES - fizička memorija 0
+SHR - dijeljena memorija 0
+S - stanje procesa je SLEEP
+trenutno ne zuauzima CPU ni fizičku memoriju i koritio je 0 sekundi od pokretanja
+
+naredba koja je pokrenula proces: migration/0
+
+normalni proces koji je pokrenuo root:
+PID 963  pokreće root
+Oznaka RT je 20, NI 0 . Radi se o normalnom procesu koji ima zadani prioritet
+Proces koristi ukupno 846572 KiB memorije od čega 97220 KiB fizičke memorije, veliki dio koje je dijeljen sa drugim procesima 63000 KiB.
+Stanje procesa j SLEEP, koristi 6.3% CPU-a i 0.6% fizičke memorije
+prcoes je koristio ukupno 0:23.86 od pokrenanja
+naredba koja je pokrenula proces je: Xorg
+
+normalni proces koji je pokrenuo korisnik
+PID 2366, pokrenuo giz73
+Oznaka RT 20, NI 0 . Radi se o normalnom procesu sa zadanim prioritetom
+Proces ukupno koristi 13852 KiB memorije, od čega 9820 fizičke a čak 7644 KiB dijeli sa drugim procesima
+Stanje procesa je R - RUNNING  - izvršava se
+koristi 0.3% CPU, 0.1% fizičke memorije, i korisito je 0:00.13(13 sekundi)  od pokretanja
+Naredba koja je pokrenula proces je: top
