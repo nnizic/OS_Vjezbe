@@ -1,0 +1,18 @@
+
+1. izračunajte oktalnu reprezentaciju
+
+-rwxr-xr-- = 4+2+1, 4+0+1, 4+0+0 = 754
+-rw-rw-r-- = 4+2+0, 4+2+0, 4+0+0 = 664
+-r--r--r-- = 4+0+0. 4+0+0. 4+0+0 = 444
+-rwxrwxrwx = 4+2+1, 4+2+1, 4+2+1 = 777
+drw-r-xr-x = 4+2+0, 4+0+1, 4+0+1 = 655 (direktorij)
+drwxrwxr-- = 4+2+1, 4+2+1, 4+0+0 = 774 (direktorij)
+
+2. za oktalne reprezentacije, ispišite znakovni niz:
+
+640 = -rw-r-----
+711 = -rwx--x--x
+775 = drwxrwxr-x (direktorij)
+774 = -rwxrwxr--
+664 = rw-rw-r--
+
