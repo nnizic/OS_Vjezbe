@@ -1,0 +1,12 @@
+rwxirinao     -    oktalne reprezentacije      -         opis
+
+rwxr-xr-x            755                        Vlasnik može čitati, pisati, izvšravati, grupa može čitati i izvšravati, ostali mogu čitati i izvšravati.
+rw-r--r--            644                        Vlasnik može čitati i pisati, grupa može ćitati , ostali mogu čitati.
+rwx------            700                        Vlasnik ima sve dozvole, ostali ne mogu ništa.
+rwxrwxrwx            777                        Svi imaju sve dozvole.
+r--r--r--            444                        Svi mogu samo čitati.
+rw-------            600                        Vlasnik može čitati i pisati, grupa i ostali ne mogu ništa.
+
+
+Leg.: r=4, w=2, x=1
+
