@@ -1,0 +1,28 @@
+Proces python3 hello.py
+
+ima PID 49998
+
+pokrenuo ga je giz73
+
+prioritet je zadan : 20, nice je 0
+
+virtualna memorija je 17956 KiB od čega fizička 10240 a dijeljena 6528
+
+stanje procesa je sleep
+
+troši 0% CPU i 0.3% memorije
+
+korišteno procesorsko vrijeme je 0:00:05
+
+naredba koja je pokrenula proces: python3 hello.py 
+
+
+PREKID uz pomoć kill:
+
+1. kill 49998
+
+2. pkill python3 
+
+3. killall python3 
+
+
